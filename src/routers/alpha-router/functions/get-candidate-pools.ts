@@ -22,6 +22,7 @@ import {
   DAI_SEPOLIA,
   FEI_MAINNET,
   ITokenProvider,
+  USDB_BLAST_SEPOLIA,
   USDC_ARBITRUM,
   USDC_ARBITRUM_GOERLI,
   USDC_AVAX,
@@ -175,6 +176,9 @@ const baseTokensByChain: { [chainId in ChainId]?: Token[] } = {
   [ChainId.BASE]: [
     USDC_BASE,
   ],
+  [ChainId.BLAST_SEPOLIA]: [
+    USDB_BLAST_SEPOLIA
+  ]
 };
 
 export async function getV3CandidatePools({

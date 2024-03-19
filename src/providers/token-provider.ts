@@ -463,6 +463,15 @@ export const USDC_CLASSIC_MORDOR = new Token(
   'USDC'
 );
 
+// Blast Sepolia Tokens
+export const USDB_BLAST_SEPOLIA = new Token(
+  ChainId.BLAST_SEPOLIA,
+  '0x4200000000000000000000000000000000000022',
+  18,
+  'USDB',
+  'USDB'
+);
+
 // Avalanche Tokens
 export const DAI_AVAX = new Token(
   ChainId.AVALANCHE,

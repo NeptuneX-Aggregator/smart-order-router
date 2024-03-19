@@ -80,6 +80,7 @@ export class V3HeuristicGasModelFactory extends IOnChainGasModelFactory {
         ChainId.OPTIMISM_GOERLI,
         ChainId.BASE,
         ChainId.BASE_GOERLI,
+        ChainId.BLAST_SEPOLIA
       ];
       if (opStackChains.includes(chainId)) {
         [l1Used, l1FeeInWei] = this.calculateOptimismToL1SecurityFee(
